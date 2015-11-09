@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>goalpacingDialog</class>
+ <widget class="QDialog" name="goalpacingDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>258</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="goalpacingtopLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>371</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>In Order To Calculate How Much You Need To Meditate To Reach Your Goals, I Need To Know How Many Days A Week You Will Be Meditating</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>110</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="goalpacingValuesLayout">
+    <item>
+     <widget class="QSpinBox" name="goalpaincgValue">
+      <property name="maximum">
+       <number>7</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="goalpacingdaysLabel">
+      <property name="text">
+       <string>Days A Week</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>190</y>
+     <width>188</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="goalpacingButtonLayout">
+    <item>
+     <widget class="QPushButton" name="goalpacingcalculateButton">
+      <property name="text">
+       <string>CALCULATE</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="goalpacingcancelButton">
+      <property name="text">
+       <string>CANCEl</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

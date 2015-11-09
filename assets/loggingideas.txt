@@ -1,0 +1,24 @@
+Started Kuji-in Program. Path On Computer Is: (Working Directory)
+Checking For Necessary Files...
+if not allfilesfound:
+    for i in a:
+        Missing %s (Name of File)
+else:
+    All Files Found!
+
+FOR Created Session:
+
+Started Creating Session:
+    Working On Entrainment For %s...Done!
+    Working On Ambience For %s...Done!
+Session Created!
+
+
+
+For Exported Session:
+    If Ambience:
+        Combining Entrainment And Ambience For %s...Done!
+    Else:
+        Combining Entrainment And Alert Files Into A Single File...Done!
+
+

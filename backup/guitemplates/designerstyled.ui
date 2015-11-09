@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>771</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#212526;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1301</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#212526;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QWidget" name="horizontalLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>80</y>
+       <width>691</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="DurationLabels_2">
+      <item>
+       <widget class="QLabel" name="preLabel_2">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-right: 1px solid black;
+border-left: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>PRE</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="rinLabel_2">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>RIN</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="kyoLabel_2">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>KYO</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="tohLabel_2">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>TOH</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="shaLabel_2">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>SHA</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="kaiLabel_2">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>KAI</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="jinLabel_2">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>JIN</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="retsuLabel_2">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>RETSU</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="zaiLabel_2">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>ZAI</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="zenLabel_2">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>ZEN</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="postLabel_2">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-right: 1px solid black;
+border-left: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>POST</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="sessionslidersLayout" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>751</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="DurationSliders_2">
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QSlider" name="preSlider_2">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="maximum">
+         <number>90</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="pageStep">
+         <number>5</number>
+        </property>
+        <property name="tracking">
+         <bool>false</bool>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="rinSlider_2">
+        <property name="maximum">
+         <number>90</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="pageStep">
+         <number>5</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="kyoSlider_2">
+        <property name="maximum">
+         <number>90</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="pageStep">
+         <number>5</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="tohSlider_2">
+        <property name="maximum">
+         <number>90</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="pageStep">
+         <number>5</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="shaSlider_2">
+        <property name="maximum">
+         <number>90</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="pageStep">
+         <number>5</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="kaiSlider_2">
+        <property name="maximum">
+         <number>90</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="pageStep">
+         <number>5</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="jinSlider_2">
+        <property name="maximum">
+         <number>90</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="pageStep">
+         <number>5</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="retsuSlider_2">
+        <property name="maximum">
+         <number>90</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="pageStep">
+         <number>5</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="zaiSlider_2">
+        <property name="maximum">
+         <number>90</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="pageStep">
+         <number>5</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="zenSlider_2">
+        <property name="maximum">
+         <number>90</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="pageStep">
+         <number>5</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="postSlider_2">
+        <property name="maximum">
+         <number>90</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="pageStep">
+         <number>5</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::NoTicks</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="toptotalsLabel">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>40</y>
+       <width>221</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 14pt &quot;Arial Black&quot;;
+color: #98A6A8;</string>
+     </property>
+     <property name="text">
+      <string>Create Session</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>590</y>
+       <width>701</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="CutDurationDisplays_2">
+      <item>
+       <widget class="QLCDNumber" name="preDisplay_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);</string>
+        </property>
+        <property name="smallDecimalPoint">
+         <bool>false</bool>
+        </property>
+        <property name="numDigits">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="rinDisplay_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);</string>
+        </property>
+        <property name="numDigits">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="kyoDisplay_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);</string>
+        </property>
+        <property name="numDigits">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="tohDisplay_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);</string>
+        </property>
+        <property name="numDigits">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="shaDisplay_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);</string>
+        </property>
+        <property name="numDigits">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="kaiDisplay_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);</string>
+        </property>
+        <property name="numDigits">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="jinDisplay_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);</string>
+        </property>
+        <property name="numDigits">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="retsuDisplay_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);</string>
+        </property>
+        <property name="numDigits">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="zaiDisplay_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);</string>
+        </property>
+        <property name="numDigits">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="zenDisplay_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);</string>
+        </property>
+        <property name="numDigits">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="postDisplay_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);</string>
+        </property>
+        <property name="numDigits">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>80</y>
+       <width>91</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="totalprogressLabels">
+      <item>
+       <widget class="QLabel" name="rintotalLabel">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-left: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>RIN</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="kyototalLabel">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-left: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>KYO</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="tohtotalLabel">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-left: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>TOH</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="shatotalLabel">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-left: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>SHA</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="kaitotalLabel">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-left: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>KAI</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="jintotalLabel">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-left: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>JIN</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="retsutotalLabel">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-left: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>RETSU</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="zaitotalLabel">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-left: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>ZAI</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="zentotalLabel">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-left: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>ZEN</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>80</y>
+       <width>66</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="totaldaysLayout">
+      <item>
+       <widget class="QLCDNumber" name="rintotaldaysDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="kyototaldaysDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="tohtotaldaysDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="shatotaldaysDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="kaitotaldaysDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="jintotaldaysDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="retsutotaldaysDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="zaitotaldaysDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="zentotaldaysDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>80</y>
+       <width>55</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="totaldaysLabels">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Days</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Days</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Days</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Days</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Days</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Days</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Days</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Days</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Days</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>1010</x>
+       <y>80</y>
+       <width>66</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="totalhoursLayout">
+      <item>
+       <widget class="QLCDNumber" name="rintotalhoursDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="kyototalhoursDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="tohtotalhoursDisplay">
+        <property name="styleSheet">
+         <string>color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="shatotalhoursDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="kaitotalhoursDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="jintotalhoursDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="retsutotalhoursDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="zaitotalhoursDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="zentotalhoursDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>1080</x>
+       <y>80</y>
+       <width>55</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="totalhoursLabels">
+      <item>
+       <widget class="QLabel" name="label_11">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Hours</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_14">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Hours</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_15">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Hours</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_18">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Hours</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_17">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Hours</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_16">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Hours</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_13">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Hours</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_12">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Hours</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Hours</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_6">
+     <property name="geometry">
+      <rect>
+       <x>1140</x>
+       <y>80</y>
+       <width>66</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="totalminutesLayout">
+      <item>
+       <widget class="QLCDNumber" name="rintotalminutesDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="kyototalminutesDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="tohtotalminutesDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="shatotalminutesDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="kaitotalminutesDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="jintotalminutesDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="retsutotalminutesDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="zaitotalminutesDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="zentotalminutesDisplay">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(187, 204, 207);
+border-top: 1px solid black;
+border-bottom: 1px solid black;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_7">
+     <property name="geometry">
+      <rect>
+       <x>1210</x>
+       <y>80</y>
+       <width>71</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="totaldaysLayout_6">
+      <item>
+       <widget class="QLabel" name="label_19">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Minutes</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_23">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Minutes</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_22">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Minutes</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_21">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Minutes</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_25">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Minutes</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_20">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Minutes</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_26">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Minutes</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_24">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Minutes</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_27">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Minutes</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_6">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>19</y>
+       <width>491</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="topsessionLabel">
+        <property name="styleSheet">
+         <string notr="true">color: #98A6A8;
+font: 12pt &quot;Arial Black&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Total Progress</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="styleSheet">
+           <string notr="true">color: #98A6A8;
+background-color: rgb(53, 63, 68);</string>
+          </property>
+          <property name="text">
+           <string>View List Of Sessions</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="styleSheet">
+           <string notr="true">color: #98A6A8;
+background-color: rgb(53, 63, 68);</string>
+          </property>
+          <property name="text">
+           <string>View Premature Endings</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>660</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QCheckBox" name="AmbienceOption">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(155, 170, 172);
+selection-background-color: rgb(200, 62, 67);
+</string>
+        </property>
+        <property name="text">
+         <string>AMBIENCE</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="ReferebceDisplayOption">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(155, 170, 172);
+selection-background-color: rgb(53, 62, 67);</string>
+        </property>
+        <property name="text">
+         <string>REFERENCE FILES</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>870</x>
+       <y>650</y>
+       <width>351</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="actionsbuttonsLayout">
+        <item>
+         <widget class="QPushButton" name="CreateButton">
+          <property name="styleSheet">
+           <string notr="true">color: #98A6A8;
+background-color: rgb(53, 63, 68);</string>
+          </property>
+          <property name="text">
+           <string>CREATE</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="exportButton">
+          <property name="styleSheet">
+           <string notr="true">color: #98A6A8;
+background-color: rgb(53, 63, 68);</string>
+          </property>
+          <property name="text">
+           <string>EXPORT</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QPushButton" name="PlayButton">
+          <property name="styleSheet">
+           <string notr="true">color: #98A6A8;
+background-color: rgb(53, 63, 68);</string>
+          </property>
+          <property name="text">
+           <string>PLAY</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="styleSheet">
+           <string notr="true">color: #98A6A8;
+background-color: rgb(53, 63, 68);</string>
+          </property>
+          <property name="text">
+           <string>PAUSE</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="styleSheet">
+    <string notr="true">color: #98A6A8;</string>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#212526;
+color: :#212526;
+</string>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <property name="nativeMenuBar">
+    <bool>true</bool>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="styleSheet">
+     <string notr="true">background-color:#212526; color: #98A6A8;</string>
+    </property>
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen_Session"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="styleSheet">
+     <string notr="true">background-color:#212526; color: #98A6A8;</string>
+    </property>
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionCheck_Integrity"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="styleSheet">
+     <string notr="true">background-color:#212526; color: #98A6A8;</string>
+    </property>
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout_This_Program"/>
+    <addaction name="actionAbout_Qt"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionOpen_Session">
+   <property name="text">
+    <string>Open Session</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionCheck_Integrity">
+   <property name="text">
+    <string>Check Integrity</string>
+   </property>
+  </action>
+  <action name="actionAbout_This_Program">
+   <property name="text">
+    <string>About This Program</string>
+   </property>
+  </action>
+  <action name="actionAbout_Qt">
+   <property name="text">
+    <string>About Qt</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>PlayButton</sender>
+   <signal>clicked()</signal>
+   <receiver>statusBar</receiver>
+   <slot>clearMessage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>873</x>
+     <y>731</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>675</x>
+     <y>783</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
